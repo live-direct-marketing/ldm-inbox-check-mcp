@@ -1,5 +1,9 @@
 # ldm-inbox-check-mcp
 
+[![npm](https://img.shields.io/npm/v/ldm-inbox-check-mcp.svg)](https://www.npmjs.com/package/ldm-inbox-check-mcp)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![MCP](https://img.shields.io/badge/MCP-compatible-blue.svg)](https://modelcontextprotocol.io)
+
 MCP server for [Inbox Check](https://check.live-direct-marketing.online) —
 programmatic email deliverability testing across Gmail, Outlook, Yahoo,
 Mail.ru and Yandex. Plug it into Claude Desktop, Cursor, or any other

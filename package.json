@@ -1,6 +1,6 @@
 {
   "name": "ldm-inbox-check-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "MCP server for Inbox Check — programmatic email deliverability testing (Gmail / Outlook / Yahoo / Mail.ru / Yandex) for AI agents.",
   "keywords": [
     "mcp",
