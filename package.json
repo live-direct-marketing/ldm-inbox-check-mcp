@@ -1,0 +1,54 @@
+{
+  "name": "ldm-inbox-check-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for Inbox Check — programmatic email deliverability testing (Gmail / Outlook / Yahoo / Mail.ru / Yandex) for AI agents.",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "email",
+    "deliverability",
+    "inbox-placement",
+    "spam-test",
+    "ai-agent",
+    "claude",
+    "cursor"
+  ],
+  "homepage": "https://check.live-direct-marketing.online/docs/mcp",
+  "bugs": "https://github.com/live-direct-marketing/ldm-inbox-check-mcp/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/live-direct-marketing/ldm-inbox-check-mcp.git"
+  },
+  "license": "MIT",
+  "author": "Live Direct Marketing",
+  "type": "module",
+  "bin": {
+    "ldm-inbox-check-mcp": "dist/index.js"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.5.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

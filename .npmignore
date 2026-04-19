@@ -1,0 +1,7 @@
+src/
+tsconfig.json
+node_modules/
+.gitignore
+*.log
+.env
+.github/
