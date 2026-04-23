@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.live-direct-marketing/inbox-check",
-  "description": "Email inbox placement tests across Gmail, Outlook, Yahoo, Mail.ru, Yandex (SPF/DKIM/DMARC).",
+  "description": "Email inbox placement tests across 9 providers: Gmail, Outlook, Yahoo, iCloud, AOL, GMX, T-Online, Mail.ru, Yandex (SPF/DKIM/DMARC).",
   "title": "Inbox Check — Email Deliverability Test",
   "websiteUrl": "https://check.live-direct-marketing.online/docs/mcp",
   "repository": {

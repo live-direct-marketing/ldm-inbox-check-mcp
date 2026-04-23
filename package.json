@@ -2,7 +2,7 @@
   "name": "ldm-inbox-check-mcp",
   "version": "0.1.2",
   "mcpName": "io.github.live-direct-marketing/inbox-check",
-  "description": "MCP server for Inbox Check — programmatic email deliverability testing (Gmail / Outlook / Yahoo / Mail.ru / Yandex) for AI agents.",
+  "description": "MCP server for Inbox Check — programmatic email deliverability testing across 9 providers (Gmail, Outlook, Yahoo, iCloud, AOL, GMX, T-Online, Mail.ru, Yandex) for AI agents.",
   "keywords": [
     "mcp",
     "model-context-protocol",
